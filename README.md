@@ -47,3 +47,5 @@ pnpm android
 - [Forms](https://starter.obytes.com/ui-and-theme/Forms)
 - [Data fetching](https://starter.obytes.com/guides/data-fetching)
 - [Contribute to starter](https://starter.obytes.com/how-to-contribute/)
+
+- [Figma design](<https://www.figma.com/file/JdXbVcOTOMZHMaePKGAf5n/To-Do-List-(Community)?type=design&node-id=0-1&mode=design&t=ouVEth3fvTyoeTLQ-0>)

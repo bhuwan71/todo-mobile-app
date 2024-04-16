@@ -83,9 +83,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace 'com.sarallagani.development'
+    namespace 'com.todoapp.development'
     defaultConfig {
-        applicationId 'com.sarallagani.development'
+        applicationId 'com.todoapp.development'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

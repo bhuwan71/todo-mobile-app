@@ -4,7 +4,13 @@ import type { SvgProps } from 'react-native-svg';
 import Svg, { Circle, Path, Polygon } from 'react-native-svg';
 // TODO: should be updated to simple images
 export const Cover = (props: SvgProps) => (
-  <Svg data-name="Layer 1" viewBox="0 0 831 729.98934" {...props}>
+  <Svg
+    width="415.5"
+    height="264.99467"
+    data-name="Layer 1"
+    viewBox="0 0 831 729.98934"
+    {...props}
+  >
     <Path
       d="M908.4762,788.57689v-72.34S936.66786,767.52287,908.4762,788.57689Z"
       transform="translate(-184.5 -85.00533)"

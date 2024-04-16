@@ -1,4 +1,4 @@
-rootProject.name = 'sarallagani'
+rootProject.name = 'todoapp'
 
 dependencyResolutionManagement {
   versionCatalogs {

@@ -1,4 +1,4 @@
-package com.sarallagani.development
+package com.todoapp.development
 
 import android.app.Application
 import android.content.res.Configuration
