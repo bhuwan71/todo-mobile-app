@@ -39,6 +39,7 @@ function RootLayoutNav() {
       <Stack>
         <Stack.Screen name="index" options={{ headerShown: false }} />
         <Stack.Screen name="(app)" options={{ headerShown: false }} />
+        <Stack.Screen name="todos" options={{ headerShown: false }} />
       </Stack>
     </Providers>
   );

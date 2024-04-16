@@ -25,12 +25,12 @@ export default function TabLayout() {
   return (
     <Tabs>
       <Tabs.Screen
-        name="home"
+        name="profile"
         options={{
-          title: 'Home',
+          title: 'Profile',
           headerShown: false,
           tabBarIcon: ({ color }) => <SettingsIcon color={color} />,
-          tabBarTestID: 'home-tab',
+          tabBarTestID: 'profile-tab',
         }}
       />
       <Tabs.Screen

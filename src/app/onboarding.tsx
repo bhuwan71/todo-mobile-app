@@ -10,7 +10,7 @@ export default function Onboarding() {
   const router = useRouter();
 
   return (
-    <View className="flex h-full items-center justify-center bg-white ">
+    <View className="flex h-full items-center justify-center bg-black ">
       <View className="py-5">
         <Cover />
       </View>
@@ -22,7 +22,7 @@ export default function Onboarding() {
           The right way to organize your tasks!
         </Text>
 
-        <Text className="my-1 text-left text-lg">
+        <Text className="my-1 text-left text-lg text-black">
           📝 Stay organized, stay productive!
         </Text>
         <Text className="my-1 text-left text-lg">✅ Your tasks, your way!</Text>
@@ -35,7 +35,7 @@ export default function Onboarding() {
           label="Let's Get Started 🎉"
           onPress={() => {
             setIsFirstTime(false);
-            router.replace('/');
+            router.replace('/todos');
           }}
         />
       </SafeAreaView>

@@ -13,7 +13,7 @@ import {
   useModal,
   View,
 } from '@/ui';
-const Profile = () => {
+const Home = () => {
   const { ref, present } = useModal();
   const showModal = () => {
     present();
@@ -27,7 +27,7 @@ const Profile = () => {
   const dispatch = useDispatch();
   const data = useSelector((state: RootState) => state.api.data); // Assuming `api` is the name of your slice
 
-  console.log(JSON.stringify(data));
+  // console.log(JSON.stringify(data));
 
   useEffect(() => {
     dispatch(fetchData());
@@ -54,4 +54,4 @@ const Profile = () => {
   );
 };
 
-export default Profile;
+export default Home;
